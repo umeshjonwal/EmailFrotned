@@ -1,0 +1,38 @@
+ body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #c4abab, #4e33d8);
+  margin: 0;
+  padding: 0;
+}
+
+textarea::placeholder,
+input::placeholder {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.MuiInputLabel-root {
+  font-weight: bold;
+}
+
+.MuiButton-contained {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to right, #31ddea, #8b33d8);
+  transition: transform 0.2s;
+}
+
+.MuiButton-contained:hover {
+  transform: translateY(-2px);
+} 
+
+.MuiDrawer-paper {
+  border-right: 1px solid #333;
+}
+
+.MuiListItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.MuiListItemText-primary {
+  font-weight: 500;
+}
